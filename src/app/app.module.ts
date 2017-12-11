@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FeaturesComponent } from './features/features.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { AdsComponent } from './ads/ads.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AdsComponent } from './ads/ads.component';
     NavbarComponent,
     FeaturesComponent,
     CarouselComponent,
-    AdsComponent
+    AdsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
