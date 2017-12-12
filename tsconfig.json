@@ -17,6 +17,10 @@
     "lib": [
       "es2016",
       "dom"
-    ]
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      
+    }
   }
 }
