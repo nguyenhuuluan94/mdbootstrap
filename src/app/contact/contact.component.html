@@ -100,9 +100,7 @@
                         <div *ngIf="message.errors.minlength">Message should be minimun {{message.errors.minlength.requiredLength}}</div>
                       </div>
 
-                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Click to send">
-                          <i class="fa fa-send-o"></i>
-                        </button>
+                     
                     </div>
 
                   </div>
@@ -110,6 +108,9 @@
 
                 </div>
                 <!--Grid row-->
+                <button type="submit" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Click to submit">
+                    <i class="fa fa-send-o"></i>
+                  </button>
               </form>
 
             </div>

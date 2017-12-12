@@ -52,12 +52,10 @@ const appRoutes: Routes = [
     MDBBootstrapModule.forRoot(),
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
-      // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
       apiKey: 'Your_api_key'
     }),
     RouterModule.forRoot(
-      appRoutes,
-      // {enableTracing: true}
+      appRoutes
     )
   ],
   providers: [],
