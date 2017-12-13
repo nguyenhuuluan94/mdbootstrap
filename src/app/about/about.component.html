@@ -1,30 +1,120 @@
-<div class="m-5">
-    <ngb-tabset justify="center">
-        <ngb-tab title="MANIFESTO">
-            <ng-template ngbTabContent>
-                <p>In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy
-                    before the design starts. Needless to say it’s very important, content is king and people are beginning
-                    to understand that. However, back over in reality some project schedules and budgets don’t allow for
-                    web copy to be written before the design phase.</p>
-            </ng-template>
-        </ngb-tab>
-        <ngb-tab title="VISON">
-            <ng-template ngbTabContent>
-                <p>
-                    We’re here to help, we’ve written examples of web copy for over 40 industries for you to use at concept phase of your projects
-                    to bring a little life and realism to your designs and help you think about who and what you are designing
-                    for. We want clients and designers alike to think about their design and how it will work with the web
-                    copy.
+<section class="container-fluid my-4">
+
+    <div class="mx-auto w-75 py-5 text-center">
+        <ngb-tabset justify="center my-5">
+            <ngb-tab title="MANIFESTO" class="accent-green">
+                <ng-template ngbTabContent>
+                    <p>In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web
+                        copy before the design starts. Needless to say it’s very important, content is king and people are
+                        beginning to understand that. However, back over in reality some project schedules and budgets don’t
+                        allow for web copy to be written before the design phase.</p>
+                </ng-template>
+            </ngb-tab>
+            <ngb-tab title="VISION">
+                <ng-template ngbTabContent>
+                    <p>
+                        We’re here to help, we’ve written examples of web copy for over 40 industries for you to use at concept phase of your projects
+                        to bring a little life and realism to your designs and help you think about who and what you are
+                        designing for. We want clients and designers alike to think about their design and how it will work
+                        with the web copy.
+                    </p>
+                </ng-template>
+            </ngb-tab>
+            <ngb-tab title="MISSION">
+                <ng-template ngbTabContent>
+                    <p>In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web
+                        copy before the design starts. Needless to say it’s very important, content is king and people are
+                        beginning to understand that. However, back over in reality some project schedules and budgets don’t
+                        allow for web copy to be written before the design phase.</p>
+                </ng-template>
+            </ngb-tab>
+        </ngb-tabset>
+    </div>
+
+</section>
+
+<section class="features text-white">
+    <div class="container py-5">
+
+        <div class="row text-center py-5">
+            <div class="col-4">
+                <div>
+                    <i class="fa fa-desktop fa-3x pb-3" aria-hidden="true"></i>
+                </div>
+                <h4 class="h6">Perfect Design</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-cogs fa-3x pb-3" aria-hidden="true"></i>
+                <h4 class="h6">Web Development</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-share-square-o fa-3x pb-3" aria-hidden="true"></i>
+                <h4 class="h6">Social Media</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services.</p>
+            </div>
+        </div>
+
+        <div class="row text-center pb-5">
+            <div class="col-4">
+                <div>
+                    <i class="fa fa-mobile fa-3x pb-3" aria-hidden="true"></i>
+                </div>
+                <h4 class="h6">App &amp; iOS</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services..</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-pencil-square-o fa-3x pb-3" aria-hidden="true"></i>
+                <h4 class="h6">Web Development</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-line-chart fa-3x pb-3" aria-hidden="true"></i>
+                <h4 class="h6">Social Media</h4>
+                <p class="sz-14 w-75 mx-auto">Credibly brand standards compliant users without extensible services.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="team">
+    <div class="text-center my-5">
+        <h1 class="mb-4">Team Members</h1>
+        <p class="w-40 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+            its layout.</p>
+    </div>
+    <div class="d-flex flex-wrap mt-4">
+        <div class="w-20 view overlay hm-black-strong hoverable" *ngFor="let team of teams">
+            <img [src]="team.imgUrl" alt="Avatar" class="img-fluid w-100">
+            <div class="mask text-center white-text d-flex justify-content-center">
+                <h5 class="name font-weight-bold">{{team.name}}</h5>
+                <p class="title">{{team.title}}</p>
+                <p class="border-bottom w-25 mx-auto"></p>
+                <p class="social">
+                    <span class="extras">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.pinterest.com" target="_blank">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="https://www.tumblr.com/" target="_blank">
+                            <i class="fa fa-tumblr"></i>
+                        </a>
+                    </span>
                 </p>
-            </ng-template>
-        </ngb-tab>
-        <ngb-tab title="MISSION">
-            <ng-template ngbTabContent>
-                <p>In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy
-                    before the design starts. Needless to say it’s very important, content is king and people are beginning
-                    to understand that. However, back over in reality some project schedules and budgets don’t allow for
-                    web copy to be written before the design phase.</p>
-            </ng-template>
-        </ngb-tab>
-    </ngb-tabset>
-</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<app-footer></app-footer>

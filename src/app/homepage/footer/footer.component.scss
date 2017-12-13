@@ -1,3 +1,14 @@
 .page-footer {
     margin-top: 0;
+    .small-title {
+        font-size: 0.8rem;
+        padding: 1rem 0;
+        font-weight: bold;
+    }
+    .small-text {
+        font-size: 0.6rem;
+    }
+    ul li {
+        padding-bottom: 0.3rem;
+    }
 }

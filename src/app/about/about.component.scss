@@ -1,1 +1,33 @@
-// @import "../../../scss/bootstrap/bootstrap.scss";
+.features {
+    background-color: #0cb4ce;
+    opacity: 0.9;
+    .sz-14 {
+        font-size: 0.8rem;
+    }
+}
+.w-20 {
+    width: 20%;
+}
+.w-40 {
+    width: 40%;
+}
+.team {
+
+    .mask {
+        flex-direction: column;
+        .title {
+            font-size: 0.8rem;
+        }
+        .border-bottom {
+            border-bottom: 1px solid #fff;
+        }
+        .social a {
+            margin: 0 0.5rem;
+            i {
+                color: #fff;
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+}
