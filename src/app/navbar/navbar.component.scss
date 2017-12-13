@@ -1,9 +1,30 @@
-@import "../../../scss/bootstrap/bootstrap.scss";
+// @import "../../../scss/bootstrap/bootstrap.scss";
 
-.dropdown-menu[_ngcontent-c1] {
-    top: 0;
-}
-ul li, .navbar-brand {
+.nav-item {
     margin-right: 3rem;
-    
+}
+.btn-group {
+    display: none;
+}
+.dropdown-menu {
+    left: auto;
+    min-width: auto;
+    a {
+        padding: 0.25rem 1.5rem;
+    }
+}
+.dropdown-right {
+    position: absolute;
+    transform: translate3d(-8px, 64px, 0px);
+    top: 0px;
+    right: 0px;
+    text-align: end;
+}
+@media (max-width: 990px) {
+    .navbar-collapse {
+        display: none;
+    }
+    .btn-group {
+        display: initial;
+    }
 }

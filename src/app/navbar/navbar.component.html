@@ -1,14 +1,21 @@
-<!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <a class="navbar-brand animated bounce infinite" routerLink="/">
     <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt="">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="btn-group " dropdown>
+      <button dropdownToggle type="button" class="btn-sm btn-dark dropdown-toggle waves-light" mdbRippleRadius>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+  
+      <div class="dropdown-menu dropdown-right animated slideInDown">
+          <a class="dropdown-item" routerLink="/">Home</a>
+          <a class="dropdown-item" routerLink="/services">Services</a>
+          <a class="dropdown-item" routerLink="/contact">Contact</a>
+          <a class="dropdown-item" routerLink="/about">About</a>
+      </div>
+  </div>
 
-  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" routerLink="/">Home
@@ -24,22 +31,9 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/about">About</a>
       </li>
-      <!-- <li class="btn-group nav-item dropdown" dropdown>
-        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle waves-light" mdbRippleRadius>
-          Basic dropdown
-        </button>
-
-        <div class="dropdown-menu dropdown-primary">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
-        </div>
-      </li> -->
 
     </ul>
   </div>
 </nav>
-<!--/.Navbar-->
+
 

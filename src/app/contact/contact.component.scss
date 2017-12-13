@@ -1,10 +1,19 @@
+// @import '../../../scss/bootstrap/_functions';
+// @import '../../../scss/bootstrap/_variables';
+// @import '../../../scss/bootstrap/mixins/_breakpoints';
 .bg-dark-blue {
     background-color: hsl(210, 74%, 25%);
 }
 
-.contact li  {
+.contact li {
     margin-bottom: 3.5rem;
     i {
         margin-right: 2rem;
+    }
+}
+
+@media (max-width: 1410px) {
+    .contact-container {
+        display: none;
     }
 }

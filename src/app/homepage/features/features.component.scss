@@ -13,4 +13,13 @@
     background-size: cover;
     z-index: -1;
 }
-
+@media (max-width: 767px) { 
+    .features-content {
+        text-align: center;
+    }
+ }
+ @media (max-width: 575px) {
+    .features-content {
+        width: 100% !important;
+    }
+ }
